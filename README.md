@@ -9,7 +9,11 @@ __overview:__ meisingalong is served locally with nginx and an iipimage server.
 ### installation ⚙️🔧
 install nginx with homebrew.
 
-clone [meisingalong](https://github.com/chetbae/meisingalong.git)
+clone this repo.
+
+```
+git clone https://github.com/DDMAL/meisingalong.git
+```
 
 ### set up nginx server 
 replace `<PATH-TO>` in meisingalong.conf with absolute path to salzinnes-singalong.
