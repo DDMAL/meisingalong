@@ -1,0 +1,46 @@
+IIPIMAGE FOR Mac OS X
+---------------------
+
+This distribution contains a statically compiled IIPImage server binary and configuration file for Mac OS X.
+
+This binary has been statically compiled with libfcgi, libtiff4 (including BigTIFF support) and libjpeg8 to enable users to have IIPImage up and running instantly 
+without the need to install any extra dependencies. The LLVM compiler distributed as part of Xcode was used to generate an optimized 64bit binary. It has  been built and 
+tested on Mavericks, but should work with both earlier and later 64bit Intel versions versions.
+
+
+
+INSTALLATION INSTRUCTIONS FOR Mac OS X
+--------------------------------------
+
+Mac OS X includes a distribution of the Apache web server by default. However, Mavericks and later versions do not include an FCGI module for Apache, so you will first need 
+to install one. The mod_fcgid module (https://httpd.apache.org/mod_fcgid/) is actively maintained and can be installed either manually or using a package manager such as 
+MacPorts or brew. Once installed and running, we can configure and install iipsrv.
+
+Mac OS X places CGI executables by default in /Library/WebServer/CGI-Executables/ so first copy the iipsrv executable to this location as follows:
+
+% sudo cp iipsrv.fcgi /Library/WebServer/CGI-Executables/
+
+An example configuration file (iipsrv.conf) is included with this distribution for use with mod_fcgid. Modify the configuration file if you wish (see the README server 
+documentation for details on available parameters) and copy this to the default location for 3rd party Apache modules configuration /etc/apache2/other/
+
+% sudo cp iipsrv.conf /etc/apache2/other/
+
+The configuration file sets the iipsrv log file location to /var/log/ which requires the web server to have write permission. If you have modified this to point to somewhere like 
+/tmp/ you may skip this step:
+
+% sudo touch /var/log/iipsrv.log ; sudo chown _www /var/log/iipsrv.log
+
+All set! Now (re) start Apache!
+
+% sudo sudo apachectl restart
+
+Open your web browser at http://localhost/fcgi-bin/iipsrv.fcgi. You should see the iipsrv info page. If not, check the iipsrv log file and Apache log files. Follow the 
+troubleshooting guide if necessary: http://iipimage.sourceforge.net/documentation/troubleshooting/
+
+
+
+---------------------------------------------------------------------------
+Please refer to the project site http://iipimage.sf.net for further details
+---------------------------------------------------------------------------
+(c) 2000-2016 Ruven Pillay <ruven@users.sourceforge.net>
+

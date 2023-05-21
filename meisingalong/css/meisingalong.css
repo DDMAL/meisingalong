@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  font-family: "Cinzel";
+}
+
+div#meisingalong {
+  height: 100%;
+}
+
+div#meisingalong-diva-wrapper {
+  position: absolute;
+  width: 50%;
+  left: 0px;
+  height: 100%;
+}
+
+div#meisingalong-verovio-wrapper {
+  position: absolute;
+  width: 50%;
+  right: 0px;
+  height: 100%;
+}
+
+div.div_meisingalong_displaymedia {
+  height: 100%;
+}
+
+div.div_meisingalong_veroviomedia {
+  height: 100%;
+}
+
+div#meisingalong-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 30px;
+}
+
+div.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+div#meisingalong-main_title {
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 120px;
+}
+
+div#meisingalong-pre_title {
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+  font-size: 70px;
+}
+
+div#meisingalong-menu_entries {
+  font-size: 12px;
+}

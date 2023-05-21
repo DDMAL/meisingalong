@@ -1,0 +1,27 @@
+{
+    "@context":"http://iiif.io/api/presentation/2/context.json",
+    "@id":"http://localhost/iiif/manuscripts/singalong/canvas/folio-139v.json",
+    "@type":"sc:Canvas",
+    "label":"Folio 139v",
+    "height":6094,
+    "width":3783,
+    "images":[
+        {
+            "@type":"oa:Annotation",
+            "motivation":"sc:painting",
+            "resource":{
+                "@id":"http://localhost/iiif/image/singalong/CF-378_139v_167_131.tif/full/full/0/default.jpg",
+                "@type":"dctypes:Image",
+                "format":"image/tif",
+                "height":6094,
+                "width":3783,
+                "service":{
+                    "@context":"http://iiif.io/api/image/2/context.json",
+                    "@id":"http://localhost/iiif/image/singalong/CF-378_139v_167_131.tif",
+                    "profile":"http://iiif.io/api/image/2/level2.json"
+                }
+            },
+            "on":"http://localhost/iiif/manuscripts/singalong/canvas/folio-139v.json"
+        }
+    ]
+}

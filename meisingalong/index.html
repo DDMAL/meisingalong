@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/diva-override.css">
+        <link rel="stylesheet" href="css/meisingalong.css">
+
+        <style id='gradient'>
+        </style>
+
+        <script src="src/verovio/verovio-toolkit.js"></script>
+    </head>
+    <body>
+        <div id="config" style="margin: 10px">
+            <button type="button" id="start">START</button><br>
+            <br>
+            <b>Mode 1</b>
+            User chooses chant.<br>
+            <b>Mode 2</b>
+            Random autoplay of chants.<br>
+            <b>Mode 3</b>
+            Mix 1 and 2. Starts in mode 1. If inactivity for X seconds, goes to mode 2. When activity occurs, back to mode 1. "Activity" constitutes any human interaction (e.g. mouse movement).<br>
+            <br>
+            Mode: <input type="number" id="MODE" min="1" max="3" step="1" value="3"><br>
+            Autoplay interval (milliseconds): <input id="AUTOPLAY_INTERVAL" type="number" min="0" step="1"><br>
+            <hr>
+            <h1>Settings</h1>
+            Background color: <input type="color" id="BACKGROUND_COLOR" value="#ffffff"><br>
+            Diva zoom level: <input id="DISPLAY_DIVA_ZOOM_LEVEL" type="number"  min="2" step="0.01"><br>
+            Use gradients to highlight chant: <input id="DISPLAY_USE_GRADIENT" type="checkbox"><br>
+            Percent gradient: <input id="DISPLAY_GRADIENT_PERCENT"  type="number"  min="0" max="1" step="0.01"><br>
+            Diva highlight scale: <input id="DIVA_HIGHLIGHT_SCALE" type="number"  min="1" step="0.1"><br>
+            Diva highlight color (rgba(int, int, int, float) format): <input id="DIVA_HIGHLIGHT" type="text"><br>
+            Diva use coded staff height: <input id="DIVA_HIGHLIGHT_USE_STAFF_HEIGHT" type="checkbox"><br>
+            Verovio highlight color: <input type="color" id="VEROVIO_HIGHLIGHT" value="#ffffff"><br>
+            Verovio note spacing factor: <input id="VEROVIO_NOTE_SPACING_FACTOR" type="number"  min="0" step="0.01"><br>
+            <br>
+            If scroll is not checked hand and bouncing ball parameters will be ignored.<br>
+            Scroll: <input id="VEROVIO_USE_SCROLL" type="checkbox"><br>
+            Bouncing ball: <input id="BOUNCING_BALL" type="checkbox"><br>
+            Hand: <input id="HAND" type="checkbox"><br>
+            Hand size: <input id="HAND_FONTSIZE" type="number"  min="10" step="1"><br>
+            <hr>
+            <h1>Don't mess with these settings...</h1>
+            (You probably don't want to mess with these)<br>
+            Show debug playhead: <input id="DEBUG_PLAYHEAD" type="checkbox"><br>
+            Audio event interval milliseconds: <input id="AUDIO_EVENT_INTERVAL" type="number"  min="10" step="1"><br>
+            Diva preload milliseconds: <input id="DISPLAY_PRELOAD_TIME" type="number"  min="10" step="1"><br>
+            <input type="file" id="jsonFile" name="file" multiple="" />
+        </div>
+        <div id="meisingalong"></div>
+        <script src="meisingalong.js"></script>
+        <script type="text/template" id="template-main"><div id="meisingalong-menu-wrapper" class="vertical-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12" id="meisingalong-pre_title">Selected recordings from the</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12" id="meisingalong-main_title">%menu_title</div>
+		</div>
+		<div id="meisingalong-menu_entries"></div>
+	</div>
+</div>
+<div id="meisingalong-title">TITLE AREA</div>
+<div id="meisingalong-diva-wrapper"></div>
+<div id="meisingalong-verovio-wrapper"></div></script><script type="text/template" id="template-menu_entry"><div class="row">
+    <div class="col-lg-11"><h2>%title</h2></div>
+    <div class="col-lg-1"><h2><button type="button" class="btn btn-success play_button" value="%id">►</button></h2></div>
+</div></script><script type="text/template" id="template-menu_entry_nobutton"><div class="row">
+    <div class="col-lg-11"><h2>%title</h2></div>
+</div></script>
+    </body>
+</html>

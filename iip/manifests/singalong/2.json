@@ -1,0 +1,54 @@
+{
+    "@context":"http://iiif.io/api/presentation/2/context.json",
+    "@id":"http://localhost/iiif/manuscripts/singalong/2.json",
+    "@type":"sc:Manifest",
+    "label":"Salzinnes, CDN-Hsmu M2149.L4",
+    "metadata":[
+        {
+            "label":"Date",
+            "value":"1554-5"
+        },
+        {
+            "label":"Siglum",
+            "value":"CDN-Hsmu M2149.L4"
+        },
+        {
+            "label":"Provenance",
+            "value":"Salzinnes"
+        }
+    ],
+    "description":"Cistercian antiphonal from the Abbey of Salzinnes, Namur, in the Diocese of Li\u00e8ge. Manuscript produced on vellum and completed in 1554 and 1555. Square notation on red, 4-line staves. Monastic cursus. 238 folios with two lacunae (Volume I, f.125 and Volume II, f.32) and several inserted folios with full-page illuminations (between ff.45 and 46, ff. 50 and 51, and ff.117 and 118). 61.5 x 39.5 x 14.5 cm.\nPainted in a bright palette in gouache, the Salzinnes Antiphonal contains six full-page illuminations and six historiated initials and includes several scenes depicting multiple narratives from the Bible. The most significant feature of the Antiphonal is the full-length portraits of thirty-four nuns with their names in cursive and block script, some with patrons\u2019 coats-of-arms. In addition, three different religious orders are represented: Cistercians, Carmelites and Benedictines, in honour of the de Glymes family.\n",
+    "sequences":[
+        {
+            "@type":"sc:Sequence",
+            "canvases":[
+                {
+                    "@id":"http://localhost/iiif/manuscripts/singalong/canvas/2.json",
+                    "@type":"sc:Canvas",
+                    "label":"Folio 198r",
+                    "height":6116,
+                    "width":3918,
+                    "images":[
+                        {
+                            "@type":"oa:Annotation",
+                            "motivation":"sc:painting",
+                            "resource":{
+                                "@id":"http://localhost/iiif/image/singalong/CF-223_198r_203_71.tif/full/full/0/default.jpg",
+                                "@type":"dctypes:Image",
+                                "format":"image/tif",
+                                "height":6116,
+                                "width":3918,
+                                "service":{
+                                    "@context":"http://iiif.io/api/image/2/context.json",
+                                    "@id":"http://localhost/iiif/image/singalong/CF-223_198r_203_71.tif",
+                                    "profile":"http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on":"http://localhost/iiif/manuscripts/singalong/canvas/2.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

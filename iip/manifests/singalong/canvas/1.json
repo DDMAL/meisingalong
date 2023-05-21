@@ -1,0 +1,27 @@
+{
+    "@context":"http://iiif.io/api/presentation/2/context.json",
+    "@id":"http://localhost/iiif/manuscripts/singalong/canvas/1.json",
+    "@type":"sc:Canvas",
+    "label":"Folio 197v",
+    "height":6169,
+    "width":3913,
+    "images":[
+        {
+            "@type":"oa:Annotation",
+            "motivation":"sc:painting",
+            "resource":{
+                "@id":"http://localhost/iiif/image/singalong/CF-312_197v_287_179.tif/full/full/0/default.jpg",
+                "@type":"dctypes:Image",
+                "format":"image/tif",
+                "height":6169,
+                "width":3913,
+                "service":{
+                    "@context":"http://iiif.io/api/image/2/context.json",
+                    "@id":"http://localhost/iiif/image/singalong/CF-312_197v_287_179.tif",
+                    "profile":"http://iiif.io/api/image/2/level2.json"
+                }
+            },
+            "on":"http://localhost/iiif/manuscripts/singalong/canvas/1.json"
+        }
+    ]
+}

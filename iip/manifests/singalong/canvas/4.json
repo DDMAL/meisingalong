@@ -1,0 +1,27 @@
+{
+    "@context":"http://iiif.io/api/presentation/2/context.json",
+    "@id":"http://localhost/iiif/manuscripts/singalong/canvas/4.json",
+    "@type":"sc:Canvas",
+    "label":"Folio 198r",
+    "height":6116,
+    "width":3918,
+    "images":[
+        {
+            "@type":"oa:Annotation",
+            "motivation":"sc:painting",
+            "resource":{
+                "@id":"http://localhost/iiif/image/singalong/CF-223_198r_203_71.tif/full/full/0/default.jpg",
+                "@type":"dctypes:Image",
+                "format":"image/tif",
+                "height":6116,
+                "width":3918,
+                "service":{
+                    "@context":"http://iiif.io/api/image/2/context.json",
+                    "@id":"http://localhost/iiif/image/singalong/CF-223_198r_203_71.tif",
+                    "profile":"http://iiif.io/api/image/2/level2.json"
+                }
+            },
+            "on":"http://localhost/iiif/manuscripts/singalong/canvas/4.json"
+        }
+    ]
+}
