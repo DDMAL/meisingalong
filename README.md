@@ -43,7 +43,7 @@ because github has a 100mb file limit, the manuscripts were split into chunks to
 ```
 bash scripts/rejoin_manuscripts.sh
 ```
-
+_or..._ just load the manuscripts from a thumbdrive and place them in `iip/images/singalong`.
 
 
 ### run
