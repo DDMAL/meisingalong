@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="3.0.0"><music><body><mdiv><score><scoreDef><staffGrp><staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G"/></staffGrp></scoreDef><section>
 <measure><staff><layer>
 <note xml:id="meinote_1_0_0" pname="g" oct="4" dur="4"><verse n="1"><syl>O </syl></verse></note>
-<note xml:id="meinote_2_0_0" pname="c" oct="5" dur="4"><verse n="1"><syl>hu-</syl></verse></note>
+<note xml:id="meinote_2_0_0" pname="c" oct="5" dur="4"><verse n="1"><syl>Hu-</syl></verse></note>
 <note xml:id="meinote_2_0_1" pname="b" oct="4" dur="4"></note>
 <note xml:id="meinote_2_1_0" pname="c" oct="5" dur="4"><verse n="1"><syl>ber-</syl></verse></note>
 <note xml:id="meinote_2_1_1" pname="d" oct="5" dur="4"></note>
@@ -28,14 +28,14 @@
 <note xml:id="meinote_7_1_1" pname="d" oct="5" dur="4"></note>
 <note xml:id="meinote_7_2_0" pname="d" oct="5" dur="4"><verse n="1"><syl>tus </syl></verse></note>
 <note xml:id="meinote_8_0_0" pname="d" oct="5" dur="4"><verse n="1"><syl>tu-</syl></verse></note>
-<note xml:id="meinote_8_1_0" pname="e" oct="5" dur="4"><verse n="1"><syl>e </syl></verse></note>
+<note xml:id="meinote_8_1_0" pname="e" oct="5" dur="4"><verse n="1"><syl>ae </syl></verse></note>
 <note xml:id="meinote_8_1_1" pname="d" oct="5" dur="4"></note>
 <note xml:id="meinote_9_0_0" pname="c" oct="5" dur="4"><verse n="1"><syl>quo-</syl></verse></note>
 <note xml:id="meinote_9_0_1" pname="b" oct="4" dur="4"></note>
 <note xml:id="meinote_9_1_0" pname="a" oct="4" dur="4"><verse n="1"><syl>que </syl></verse></note>
 <note xml:id="meinote_9_1_1" pname="g" oct="4" dur="4"></note>
-<note xml:id="meinote_10_0_0" pname="f" oct="4" dur="4"><verse n="1"><syl>su-</syl></verse></note>
-<note xml:id="meinote_10_1_0" pname="g" oct="4" dur="4"><verse n="1"><syl>bar-</syl></verse></note>
+<note xml:id="meinote_10_0_0" pname="f" oct="4" dur="4"><verse n="1"><syl>sub-</syl></verse></note>
+<note xml:id="meinote_10_1_0" pname="g" oct="4" dur="4"><verse n="1"><syl>ar-</syl></verse></note>
 <note xml:id="meinote_10_2_0" pname="a" oct="4" dur="4"><verse n="1"><syl>ra-</syl></verse></note>
 <note xml:id="meinote_10_3_0" pname="g" oct="4" dur="4"><verse n="1"><syl>tam </syl></verse></note>
 <note xml:id="meinote_11_0_0" pname="g" oct="4" dur="4"><verse n="1"><syl>se-</syl></verse></note>
@@ -58,7 +58,7 @@
 <note xml:id="meinote_14_0_1" pname="e" oct="5" dur="4"></note>
 <note xml:id="meinote_14_0_2" pname="d" oct="5" dur="4"></note>
 <note xml:id="meinote_14_1_0" pname="e" oct="5" dur="4"><verse n="1"><syl>po-</syl></verse></note>
-<note xml:id="meinote_14_2_0" pname="d" oct="5" dur="4"><verse n="1"><syl>re </syl></verse></note>
+<note xml:id="meinote_14_2_0" pname="d" oct="5" dur="4"><verse n="1"><syl>rae </syl></verse></note>
 <note xml:id="meinote_15_0_0" pname="d" oct="5" dur="4"><verse n="1"><syl>con-</syl></verse></note>
 <note xml:id="meinote_15_1_0" pname="b" oct="4" dur="4"><verse n="1"><syl>se-</syl></verse></note>
 <note xml:id="meinote_15_2_0" pname="c" oct="5" dur="4"><verse n="1"><syl>cra-</syl></verse></note>
