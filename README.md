@@ -35,7 +35,7 @@ sudo nginx
 ### set up iipimage server
 run `startup.sh` script to set env variables and start the iipimage server on port 9000.
 ```
-cd <path-to-folder-containing-startup.sh>
+cd <path-to-folder>/iip
 ./startup.sh
 ```
 
