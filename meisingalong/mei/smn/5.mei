@@ -73,7 +73,7 @@
 <note xml:id="meinote_13_1_0" pname="c" oct="5" dur="4"><verse n="1"><syl>fra-</syl></verse></note>
 <note xml:id="meinote_13_1_1" pname="d" oct="5" dur="4"></note>
 <note xml:id="meinote_13_1_2" pname="c" oct="5" dur="4"></note>
-<note xml:id="meinote_13_1_3" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></note>
+<note xml:id="meinote_13_1_3" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_13_1_4" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_13_2_0" pname="g" oct="4" dur="4"><verse n="1"><syl>ge-</syl></verse></note>
 <note xml:id="meinote_13_2_1" pname="a" oct="4" dur="4"></note>

@@ -48,11 +48,11 @@
 <measure><staff><layer>
 <note xml:id="meinote_8_0_0" pname="d" oct="5" dur="4"><verse n="1"><syl>tu-</syl></verse></note>
 <note xml:id="meinote_8_0_1" pname="c" oct="5" dur="4"></note>
-<note xml:id="meinote_8_1_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"><verse n="1"><syl>um </syl></verse></note>
+<note xml:id="meinote_8_1_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid><verse n="1"><syl>um </syl></verse></note>
 <note xml:id="meinote_8_1_1" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_8_1_2" pname="g" oct="4" dur="4"></note>
 <note xml:id="meinote_9_0_0" pname="a" oct="4" dur="4"><verse n="1"><syl>prae-</syl></verse></note>
-<note xml:id="meinote_9_0_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></note>
+<note xml:id="meinote_9_0_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_9_1_0" pname="c" oct="5" dur="4"><verse n="1"><syl>stas </syl></verse></note>
 <note xml:id="meinote_10_0_0" pname="f" oct="4" dur="4"><verse n="1"><syl>ho-</syl></verse></note>
 <note xml:id="meinote_10_1_0" pname="g" oct="4" dur="4"><verse n="1"><syl>di-</syl></verse></note>
@@ -60,20 +60,20 @@
 <note xml:id="meinote_10_2_1" pname="g" oct="4" dur="4"></note>
 <note xml:id="meinote_10_2_2" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_11_0_0" pname="c" oct="5" dur="4"><verse n="1"><syl>pa-</syl></verse></note>
-<note xml:id="meinote_11_0_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></note>
+<note xml:id="meinote_11_0_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_11_0_2" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_11_0_3" pname="g" oct="4" dur="4"></note>
 <note xml:id="meinote_11_0_4" pname="f" oct="4" dur="4"></note>
-<note xml:id="meinote_11_1_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"><verse n="1"><syl>la-</syl></verse></note>
+<note xml:id="meinote_11_1_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid><verse n="1"><syl>la-</syl></verse></note>
 <note xml:id="meinote_11_1_1" pname="c" oct="5" dur="4"></note>
-<note xml:id="meinote_11_2_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"><verse n="1"><syl>ti-</syl></verse></note>
+<note xml:id="meinote_11_2_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid><verse n="1"><syl>ti-</syl></verse></note>
 <note xml:id="meinote_11_2_1" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_11_3_0" pname="a" oct="4" dur="4"><verse n="1"><syl>um </syl></verse></note>
 <note xml:id="meinote_12_0_0" pname="a" oct="4" dur="4"><verse n="1"><syl>cu-</syl></verse></note>
 <note xml:id="meinote_12_1_0" pname="f" oct="4" dur="4"><verse n="1"><syl>jus </syl></verse></note>
 <note xml:id="meinote_12_1_1" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_13_0_0" pname="a" oct="4" dur="4"><verse n="1"><syl>vir-</syl></verse></note>
-<note xml:id="meinote_13_0_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></note>
+<note xml:id="meinote_13_0_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_13_1_0" pname="a" oct="4" dur="4"><verse n="1"><syl>tus </syl></verse></note>
 <barLine/>
 </layer></staff></measure>
@@ -83,12 +83,12 @@
 <note xml:id="meinote_15_1_0" pname="f" oct="4" dur="4"><verse n="1"><syl>tes-</syl></verse></note>
 <note xml:id="meinote_15_1_1" pname="g" oct="4" dur="4"></note>
 <note xml:id="meinote_15_1_2" pname="a" oct="4" dur="4"></note>
-<note xml:id="meinote_15_1_3" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></note>
+<note xml:id="meinote_15_1_3" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_15_2_0" pname="a" oct="4" dur="4"><verse n="1"><syl>tas </syl></verse></note>
 <note xml:id="meinote_16_0_0" pname="c" oct="5" dur="4"><verse n="1"><syl>non </syl></verse></note>
 <note xml:id="meinote_17_0_0" pname="d" oct="5" dur="4"><verse n="1"><syl>ha-</syl></verse></note>
 <note xml:id="meinote_17_0_1" pname="c" oct="5" dur="4"></note>
-<note xml:id="meinote_17_0_2" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></note>
+<note xml:id="meinote_17_0_2" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_17_0_3" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_17_1_0" pname="g" oct="4" dur="4"><verse n="1"><syl>bet </syl></verse></note>
 <note xml:id="meinote_18_0_0" pname="f" oct="4" dur="4"><verse n="1"><syl>in-</syl></verse></note>
@@ -119,7 +119,7 @@
 <note xml:id="meinote_24_0_0" pname="a" oct="4" dur="4"><verse n="1"><syl>sed </syl></verse></note>
 <note xml:id="meinote_25_0_0" pname="c" oct="5" dur="4"><verse n="1"><syl>u-</syl></verse></note>
 <note xml:id="meinote_25_1_0" pname="c" oct="5" dur="4"><verse n="1"><syl>ber-</syl></verse></note>
-<note xml:id="meinote_25_1_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></note>
+<note xml:id="meinote_25_1_1" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_25_1_2" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_25_2_0" pname="g" oct="4" dur="4"><verse n="1"><syl>tas </syl></verse></note>
 <note xml:id="meinote_25_2_1" pname="f" oct="4" dur="4"></note>
