@@ -39,7 +39,7 @@
 <note xml:id="meinote_7_1_2" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_7_1_3" pname="g" oct="4" dur="4"></note>
 <note xml:id="meinote_7_1_4" pname="f" oct="4" dur="4"></note>
-<note xml:id="meinote_7_1_5" pname="b" oct="4" dur="4"></note>
+<note xml:id="meinote_7_1_5" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid></note>
 <note xml:id="meinote_7_1_6" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_7_1_7" pname="g" oct="4" dur="4"></note>
 <note xml:id="meinote_7_2_0" pname="a" oct="4" dur="4"><verse n="1"><syl>to </syl></verse></note>

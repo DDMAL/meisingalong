@@ -11,12 +11,12 @@
 <note xml:id="meinote_4_0" pname="f" oct="4" dur="4"><verse n="1"><syl>che</syl></verse></note>
 <note xml:id="meinote_5_0" pname="g" oct="4" dur="4"><verse n="1"><syl>san-</syl></verse></note>
 <note xml:id="meinote_5_1" pname="a" oct="4" dur="4"></note>
-<note xml:id="meinote_6_0" pname="b" oct="4" dur="4"><verse n="1"><syl>ctis-</syl></verse></note>
+<note xml:id="meinote_6_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid><verse n="1"><syl>ctis-</syl></verse></note>
 <note xml:id="meinote_6_1" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_7_0" pname="g" oct="4" dur="4"><verse n="1"><syl>si-</syl></verse></note>
 <note xml:id="meinote_8_0" pname="a" oct="4" dur="4"><verse n="1"><syl>me</syl></verse></note>
 <note xml:id="meinote_9_0" pname="a" oct="4" dur="4"><verse n="1"><syl>no-</syl></verse></note>
-<note xml:id="meinote_10_0" pname="b" oct="4" dur="4"><verse n="1"><syl>bi-</syl></verse></note>
+<note xml:id="meinote_10_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid><verse n="1"><syl>bi-</syl></verse></note>
 <note xml:id="meinote_10_1" pname="c" oct="5" dur="4"></note>
 <note xml:id="meinote_10_2" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_11_0" pname="a" oct="4" dur="4"><verse n="1"><syl>li</syl></verse></note>
@@ -98,7 +98,7 @@
 <note xml:id="meinote_49_1" pname="a" oct="4" dur="4"></note>
 <note xml:id="meinote_50_0" pname="a" oct="4" dur="4"><verse n="1"><syl>fi-</syl></verse></note>
 <note xml:id="meinote_51_0" pname="a" oct="4" dur="4"><verse n="1"><syl>ce</syl></verse></note>
-<note xml:id="meinote_52_0" pname="b" oct="4" dur="4"><verse n="1"><accid accid="f" func="edit"></accid><syl>tan-</syl></verse></note>
+<note xml:id="meinote_52_0" pname="b" oct="4" dur="4"><accid accid="f" func="edit"></accid><verse n="1"><syl>tan-</syl></verse></note>
 <note xml:id="meinote_53_0" pname="a" oct="4" dur="4"><verse n="1"><syl>gen-</syl></verse></note>
 <note xml:id="meinote_54_0" pname="g" oct="4" dur="4"><verse n="1"><syl>do</syl></verse></note>
 <note xml:id="meinote_55_0" pname="a" oct="4" dur="4"><verse n="1"><syl>sa-</syl></verse></note>
