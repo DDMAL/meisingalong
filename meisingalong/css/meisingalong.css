@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: 100%;
   margin: 0px;
   overflow: hidden;
   font-family: "Cinzel";
@@ -19,7 +19,7 @@ div#meisingalong-diva-wrapper {
 div#meisingalong-verovio-wrapper {
   position: absolute;
   width: 50%;
-  right: 0px;
+  right: 50px;
   height: 100%;
 }
 
@@ -34,8 +34,8 @@ div.div_meisingalong_veroviomedia {
 div#meisingalong-title {
   width: 100%;
   text-align: center;
-  margin-top: 1%;
-  font-size: 30px;
+  padding: 40px 0px 20px 0px;
+  font-size: 25px;
 }
 
 div.vertical-center {

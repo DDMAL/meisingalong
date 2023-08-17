@@ -11,7 +11,7 @@
         "gradients": {"0": [61, 0]}
    },
    "verovio":"http://localhost:9001/mei/smn/5.mei",
-   	"verovio_top_margin_percent": 65,
+   "verovio_top_margin_percent": 63,
    "audio":"http://localhost:9001/audio/5.mp3",
    "events":[
       {

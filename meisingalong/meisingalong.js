@@ -10701,7 +10701,7 @@ var Configuration = {
     // 1 - User play only
     // 2 - Autoplay only.
     // 3 - Both.
-    MODE: 3,
+    MODE: 1,
 
     // Autoplay interval (ms).
     AUTOPLAY_INTERVAL: 15000,
@@ -10727,7 +10727,7 @@ var Configuration = {
     // Zoom level. While this is a Diva.js setting, it should be set by function
     // OUTSIDE of the initial Diva.js config.
     // THIS SHOULD STAY ABOVE 2.25 FOR PROPER HIGHLIGHTING!!!!!
-    DISPLAY_DIVA_ZOOM_LEVEL: 2.25,
+    DISPLAY_DIVA_ZOOM_LEVEL: 2.5,
 
     // Use gradient overlay to highlight chant.
     DISPLAY_USE_GRADIENT: true,
