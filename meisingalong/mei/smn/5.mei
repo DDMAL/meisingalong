@@ -60,9 +60,9 @@
 <note xml:id="meinote_11_0_2" pname="e" oct="4" dur="4"></note>
 <note xml:id="meinote_11_0_3" pname="d" oct="4" dur="4"></note>
 <note xml:id="meinote_11_0_4" pname="c" oct="4" dur="4"></note>
-<note xml:id="meinote_12_0_0" pname="d" oct="4" dur="4"><verse n="1"><syl>e-</syl></verse></note>
-<note xml:id="meinote_12_0_1" pname="e" oct="4" dur="4"></note>
-<note xml:id="meinote_12_0_2" pname="d" oct="4" dur="4"></note>
+<note xml:id="meinote_12_0_0" pname="f" oct="4" dur="4"><verse n="1"><syl>e-</syl></verse></note>
+<note xml:id="meinote_12_0_1" pname="g" oct="4" dur="4"></note>
+<note xml:id="meinote_12_0_2" pname="f" oct="4" dur="4"></note>
 <note xml:id="meinote_12_0_3" pname="g" oct="4" dur="4"><verse n="1"><syl>i-</syl></verse></note>
 <note xml:id="meinote_12_0_4" pname="a" oct="4" dur="4"></note>
 <barLine/>
